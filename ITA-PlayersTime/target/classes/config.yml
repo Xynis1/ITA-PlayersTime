@@ -1,0 +1,42 @@
+# Plugin by: IT Area Team
+# Our discord: https://discord.gg/Ks3DhjzJgn
+# Our Github: https://github.com/IT-Area
+
+# uprawnienie do komendy playtime/czas: playtime.command
+
+# <time> to sformatowany czas np: 3600 sekund (jedna godzina) to 01:00:00
+
+messages:
+  your-time: "Twój czas gry to <time>"
+  other-players-time: "Czas gry <player-name> to <time>."
+  player-not-found: "&4&lBłąd! &cGracz nigdy nie był na serwerze."
+
+rewards:
+  abcde:
+    time: 3600 # czas gry w sekundach
+    items:
+      a:
+        type: DIRT
+        amount: 2
+        display-name: " it area es"
+        lore:
+          - "itarea B)"
+          - "witam"
+        enchants:
+          efficiency: 1
+          knockback: 1
+      b:
+        type: GOLD_INGOT
+        amount: 5
+    messages:
+      to-player: "Otrzymałeś nagrodę za czas gry na serwerze."
+      broadcast: "<player-name> otrzymał nagrodę za czas gry <time> na serwerze" # opcjonalne
+
+  qwerty:
+    time: 10800
+    item:
+      aaaaa:
+        type: GOLD_INGOT
+        amount: 5
+    messages:
+      to-player: "Otrzymałeś kolejną nagrodę za czas gry na serwerze."

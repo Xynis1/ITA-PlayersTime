@@ -1,0 +1,10 @@
+main: "pl.itarea.time.TimePlugin"
+name: "${project.artifactId}"
+version: "${project.version}"
+author: "IT Area"
+website: "https://github.com/IT-Area"
+
+commands:
+  playtime:
+    aliases: [ "czas" ]
+    permission: "playtime.command"

@@ -1,0 +1,10 @@
+main: "pl.itarea.time.TimePlugin"
+name: "ITA-PlayersTime"
+version: "1.0-BETA"
+author: "IT Area"
+website: "https://github.com/IT-Area"
+
+commands:
+  playtime:
+    aliases: [ "czas" ]
+    permission: "playtime.command"
